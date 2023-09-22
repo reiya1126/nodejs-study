@@ -10,11 +10,11 @@ docker-compose up -d
 
 ```sh
 docker-compose exec app bash
-cd /nodejs-study
 node app.js 100
 ```
 
 ## 実行例
+
 ```
 node app.js 10
 55
@@ -25,5 +25,3 @@ node app.js 100
 node app.js 150
 11325
 ```
-
-
